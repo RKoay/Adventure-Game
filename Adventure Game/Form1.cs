@@ -42,114 +42,114 @@ namespace Adventure_Game
                 else if (scene == 16) { scene = 20; }
                 else if (scene == 20) { scene = 27; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 22; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 22; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 23; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 23; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 24; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 24; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 25; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 25; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 18; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 18; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 23; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 23; }
 
             }
 
             if (e.KeyCode == Keys.B)       //blue button press
             {
 
-                if (scene == 1) { scene = 3; }
+                //if (scene == 1) { scene = 3; }
 
                 if (scene == 1) { scene = 2; }
                 else if (scene == 2) { scene = 4; }
                 else if (scene == 4) { scene = 5; }
                 else if (scene == 5) { scene = 10; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 25; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 25; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 24; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 24; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 18; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 18; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 4; }
-                else if (scene == 4) { scene = 5; }
-                else if (scene == 5) { scene = 8; }
-                else if (scene == 8) { scene = 9; }
-                else if (scene == 9) { scene = 16; }
-                else if (scene == 16) { scene = 19; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 4; }
+                //else if (scene == 4) { scene = 5; }
+                //else if (scene == 5) { scene = 8; }
+                //else if (scene == 8) { scene = 9; }
+                //else if (scene == 9) { scene = 16; }
+                //else if (scene == 16) { scene = 19; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 4; }
-                else if (scene == 4) { scene = 5; }
-                else if (scene == 5) { scene = 8; }
-                else if (scene == 8) { scene = 9; }
-                else if (scene == 9) { scene = 16; }
-                else if (scene == 16) { scene = 20; }
-                else if (scene == 20) { scene = 26; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 4; }
+                //else if (scene == 4) { scene = 5; }
+                //else if (scene == 5) { scene = 8; }
+                //else if (scene == 8) { scene = 9; }
+                //else if (scene == 9) { scene = 16; }
+                //else if (scene == 16) { scene = 20; }
+                //else if (scene == 20) { scene = 26; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 4; }
-                else if (scene == 4) { scene = 5; }
-                else if (scene == 5) { scene = 8; }
-                else if (scene == 8) { scene = 9; }
-                else if (scene == 9) { scene = 17; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 4; }
+                //else if (scene == 4) { scene = 5; }
+                //else if (scene == 5) { scene = 8; }
+                //else if (scene == 8) { scene = 9; }
+                //else if (scene == 9) { scene = 17; }
 
             }
             if (e.KeyCode == Keys.E)       //Green button press
@@ -159,112 +159,112 @@ namespace Adventure_Game
                 else if (scene == 4) { scene = 5; }
                 else if (scene == 5) { scene = 10; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 4; }
-                else if (scene == 4) { scene = 5; }
-                else if (scene == 5) { scene = 8; }
-                else if (scene == 8) { scene = 9; }
-                else if (scene == 9) { scene = 16; }
-                else if (scene == 16) { scene = 20; }
-                else if (scene == 20) { scene = 27; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 4; }
+                //else if (scene == 4) { scene = 5; }
+                //else if (scene == 5) { scene = 8; }
+                //else if (scene == 8) { scene = 9; }
+                //else if (scene == 9) { scene = 16; }
+                //else if (scene == 16) { scene = 20; }
+                //else if (scene == 20) { scene = 27; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 25; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 25; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 24; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 24; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 18; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 18; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 22; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 22; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 23; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 23; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 24; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 24; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 11; }
-                else if (scene == 11) { scene = 12; }
-                else if (scene == 12) { scene = 13; }
-                else if (scene == 13) { scene = 14; }
-                else if (scene == 14) { scene = 25; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 11; }
+                //else if (scene == 11) { scene = 12; }
+                //else if (scene == 12) { scene = 13; }
+                //else if (scene == 13) { scene = 14; }
+                //else if (scene == 14) { scene = 25; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 18; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 18; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 23; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 23; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 4; }
-                else if (scene == 4) { scene = 5; }
-                else if (scene == 5) { scene = 8; }
-                else if (scene == 8) { scene = 9; }
-                else if (scene == 9) { scene = 16; }
-                else if (scene == 16) { scene = 21; }
-                else if (scene == 21) { scene = 28; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 4; }
+                //else if (scene == 4) { scene = 5; }
+                //else if (scene == 5) { scene = 8; }
+                //else if (scene == 8) { scene = 9; }
+                //else if (scene == 9) { scene = 16; }
+                //else if (scene == 16) { scene = 21; }
+                //else if (scene == 21) { scene = 28; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 4; }
-                else if (scene == 4) { scene = 5; }
-                else if (scene == 5) { scene = 8; }
-                else if (scene == 8) { scene = 9; }
-                else if (scene == 9) { scene = 16; }
-                else if (scene == 16) { scene = 21; }
-                else if (scene == 21) { scene = 29; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 4; }
+                //else if (scene == 4) { scene = 5; }
+                //else if (scene == 5) { scene = 8; }
+                //else if (scene == 8) { scene = 9; }
+                //else if (scene == 9) { scene = 16; }
+                //else if (scene == 16) { scene = 21; }
+                //else if (scene == 21) { scene = 29; }
 
-                if (scene == 1) { scene = 2; }
-                else if (scene == 2) { scene = 6; }
-                else if (scene == 6) { scene = 7; }
-                else if (scene == 7) { scene = 15; }
-                else if (scene == 15) { scene = 14; }
-                else if (scene == 14) { scene = 22; }
+                //if (scene == 1) { scene = 2; }
+                //else if (scene == 2) { scene = 6; }
+                //else if (scene == 6) { scene = 7; }
+                //else if (scene == 7) { scene = 15; }
+                //else if (scene == 15) { scene = 14; }
+                //else if (scene == 14) { scene = 22; }
             }
 
             switch (scene)
