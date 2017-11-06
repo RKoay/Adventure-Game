@@ -151,5 +151,41 @@
   <ItemGroup>
     <None Include="Resources\scene 30.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SMALL_CROWD_APPLAUSE-Yannick_Lemieux-1268806408 %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sad_Trombone-Joe_Lamb-665429450.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flyby-Conor-1500306612.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ting-Popup_Pixels-349896185.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birds_after_rain-Mike_Koenig-1034248330.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Appear-KP-1137861048.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Night_Sounds_-_Crickets-Lisa_Redfern-591005346.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strange Noise-SoundBible.com-229408508.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Swords_Collide-Sound_Explorer-2015600826.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Footsteps-SoundBible.com-534261997.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth-Anna-2094913298.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knocking On Door-SoundBible.com-84643603.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

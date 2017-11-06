@@ -121,6 +121,30 @@
   <data name="ancient book" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ancient book.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Appear_KP_1137861048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Appear-KP-1137861048.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="birds_after_rain_Mike_Koenig_1034248330" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\birds_after_rain-Mike_Koenig-1034248330.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cloth_Anna_2094913298" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloth-Anna-2094913298.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="flyby_Conor_1500306612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flyby-Conor-1500306612.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Footsteps_SoundBible_com_534261997" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Footsteps-SoundBible.com-534261997.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Knocking_On_Door_SoundBible_com_84643603" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Knocking On Door-SoundBible.com-84643603.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Night_Sounds___Crickets_Lisa_Redfern_591005346" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Night_Sounds_-_Crickets-Lisa_Redfern-591005346.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sad_Trombone_Joe_Lamb_665429450" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sad_Trombone-Joe_Lamb-665429450.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="scene_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scene 10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -186,6 +210,18 @@
   </data>
   <data name="scene_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scene 8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMALL_CROWD_APPLAUSE_Yannick_Lemieux_1268806408__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SMALL_CROWD_APPLAUSE-Yannick_Lemieux-1268806408 (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Strange_Noise_SoundBible_com_229408508" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Strange Noise-SoundBible.com-229408508.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Swords_Collide_Sound_Explorer_2015600826" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Swords_Collide-Sound_Explorer-2015600826.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ting_Popup_Pixels_349896185" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ting-Popup_Pixels-349896185.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="_112450_clouds_computer_Everlasting_Summer_TV_ArseniXC_748x421" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\112450-clouds-computer-Everlasting_Summer-TV-ArseniXC-748x421.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

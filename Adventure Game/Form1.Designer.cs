@@ -28,94 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainDisplay));
             this.outputDisplay = new System.Windows.Forms.Label();
             this.optionOne = new System.Windows.Forms.Label();
             this.optionTwo = new System.Windows.Forms.Label();
             this.optionThree = new System.Windows.Forms.Label();
             this.imageDisplay = new System.Windows.Forms.Label();
-            this.controlOne = new System.Windows.Forms.Button();
-            this.controlTwo = new System.Windows.Forms.Button();
-            this.controlThree = new System.Windows.Forms.Button();
+            this.controlOne = new System.Windows.Forms.Label();
+            this.controlTwo = new System.Windows.Forms.Label();
+            this.controlThree = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // outputDisplay
             // 
             this.outputDisplay.BackColor = System.Drawing.Color.White;
-            this.outputDisplay.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputDisplay.Location = new System.Drawing.Point(12, 235);
+            this.outputDisplay.Font = new System.Drawing.Font("Adobe Caslon Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputDisplay.Location = new System.Drawing.Point(3, 251);
             this.outputDisplay.Name = "outputDisplay";
-            this.outputDisplay.Size = new System.Drawing.Size(210, 106);
+            this.outputDisplay.Size = new System.Drawing.Size(296, 178);
             this.outputDisplay.TabIndex = 0;
             // 
             // optionOne
             // 
             this.optionOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.optionOne.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optionOne.Location = new System.Drawing.Point(299, 244);
+            this.optionOne.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.optionOne.Location = new System.Drawing.Point(330, 286);
             this.optionOne.Name = "optionOne";
-            this.optionOne.Size = new System.Drawing.Size(91, 23);
+            this.optionOne.Size = new System.Drawing.Size(239, 35);
             this.optionOne.TabIndex = 1;
             // 
             // optionTwo
             // 
             this.optionTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.optionTwo.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optionTwo.Location = new System.Drawing.Point(299, 273);
+            this.optionTwo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.optionTwo.Location = new System.Drawing.Point(330, 336);
             this.optionTwo.Name = "optionTwo";
-            this.optionTwo.Size = new System.Drawing.Size(91, 23);
+            this.optionTwo.Size = new System.Drawing.Size(239, 37);
             this.optionTwo.TabIndex = 2;
             // 
             // optionThree
             // 
             this.optionThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.optionThree.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optionThree.Location = new System.Drawing.Point(299, 302);
+            this.optionThree.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.optionThree.Location = new System.Drawing.Point(330, 386);
             this.optionThree.Name = "optionThree";
-            this.optionThree.Size = new System.Drawing.Size(91, 23);
+            this.optionThree.Size = new System.Drawing.Size(239, 37);
             this.optionThree.TabIndex = 3;
             // 
             // imageDisplay
             // 
             this.imageDisplay.Location = new System.Drawing.Point(-5, -1);
             this.imageDisplay.Name = "imageDisplay";
-            this.imageDisplay.Size = new System.Drawing.Size(437, 236);
+            this.imageDisplay.Size = new System.Drawing.Size(574, 236);
             this.imageDisplay.TabIndex = 4;
-            this.imageDisplay.Click += new System.EventHandler(this.imageDisplay_Click);
             // 
             // controlOne
             // 
             this.controlOne.BackColor = System.Drawing.Color.Red;
-            this.controlOne.ForeColor = System.Drawing.Color.Red;
-            this.controlOne.Location = new System.Drawing.Point(228, 246);
+            this.controlOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlOne.Location = new System.Drawing.Point(305, 286);
             this.controlOne.Name = "controlOne";
-            this.controlOne.Size = new System.Drawing.Size(48, 23);
+            this.controlOne.Size = new System.Drawing.Size(19, 23);
             this.controlOne.TabIndex = 5;
-            this.controlOne.Text = " ";
-            this.controlOne.UseVisualStyleBackColor = false;
+            this.controlOne.Text = "R ";
             // 
             // controlTwo
             // 
-            this.controlTwo.AutoSize = true;
-            this.controlTwo.BackColor = System.Drawing.Color.Blue;
-            this.controlTwo.ForeColor = System.Drawing.Color.Blue;
-            this.controlTwo.Location = new System.Drawing.Point(228, 275);
+            this.controlTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.controlTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlTwo.Location = new System.Drawing.Point(305, 336);
             this.controlTwo.Name = "controlTwo";
-            this.controlTwo.Size = new System.Drawing.Size(48, 23);
+            this.controlTwo.Size = new System.Drawing.Size(19, 23);
             this.controlTwo.TabIndex = 6;
-            this.controlTwo.Text = " ";
-            this.controlTwo.UseVisualStyleBackColor = false;
+            this.controlTwo.Text = "T";
             // 
             // controlThree
             // 
-            this.controlThree.AutoSize = true;
             this.controlThree.BackColor = System.Drawing.Color.Lime;
-            this.controlThree.ForeColor = System.Drawing.Color.Lime;
-            this.controlThree.Location = new System.Drawing.Point(228, 304);
+            this.controlThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlThree.Location = new System.Drawing.Point(305, 386);
             this.controlThree.Name = "controlThree";
-            this.controlThree.Size = new System.Drawing.Size(48, 23);
+            this.controlThree.Size = new System.Drawing.Size(19, 23);
             this.controlThree.TabIndex = 7;
-            this.controlThree.Text = " ";
-            this.controlThree.UseVisualStyleBackColor = false;
+            this.controlThree.Text = "E";
             // 
             // mainDisplay
             // 
@@ -123,7 +118,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(431, 339);
+            this.ClientSize = new System.Drawing.Size(570, 432);
             this.Controls.Add(this.controlThree);
             this.Controls.Add(this.controlTwo);
             this.Controls.Add(this.controlOne);
@@ -132,11 +127,11 @@
             this.Controls.Add(this.optionOne);
             this.Controls.Add(this.outputDisplay);
             this.Controls.Add(this.imageDisplay);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainDisplay";
             this.Text = "A Mistake";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mainDisplay_KeyDown);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -147,9 +142,9 @@
         private System.Windows.Forms.Label optionTwo;
         private System.Windows.Forms.Label optionThree;
         private System.Windows.Forms.Label imageDisplay;
-        private System.Windows.Forms.Button controlOne;
-        private System.Windows.Forms.Button controlTwo;
-        private System.Windows.Forms.Button controlThree;
+        private System.Windows.Forms.Label controlOne;
+        private System.Windows.Forms.Label controlTwo;
+        private System.Windows.Forms.Label controlThree;
     }
 }
 

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
+using System.Media;
 
 namespace Adventure_Game
 {
@@ -51,6 +51,19 @@ namespace Adventure_Game
                 else if (scene == 14) { scene = 30; }
                 else if (scene == 30) { scene = 23; }
                 else if (scene == 15) { scene = 14; }
+                else if (scene == 10) { scene = 31; }
+                else if (scene == 17) { scene = 31; }
+                else if (scene == 18) { scene = 31; }
+                else if (scene == 19) { scene = 31; }
+                else if (scene == 22) { scene = 31; }
+                else if (scene == 23) { scene = 31; }
+                else if (scene == 24) { scene = 31; }
+                else if (scene == 25) { scene = 31; }
+                else if (scene == 26) { scene = 31; }
+                else if (scene == 27) { scene = 31; }
+                else if (scene == 28) { scene = 31; }
+                else if (scene == 29) { scene = 31; }
+                else if (scene == 31) { scene = 1; }
             }
 
             if (e.KeyCode == Keys.T)       //blue button press
@@ -77,6 +90,7 @@ namespace Adventure_Game
                 else if (scene == 7) { scene = 15; }
                 else if (scene == 2) { scene = 6; }
                 else if (scene == 6) { scene = 7; }
+                else if (scene == 31) { Close(); }
 
             }
             if (e.KeyCode == Keys.E)       //Green button press
@@ -124,6 +138,8 @@ namespace Adventure_Game
                     break;
 
                 case 2:
+                    SoundPlayer player = new SoundPlayer(Properties.Resources.flyby_Conor_1500306612);
+                    player.Play();
                     outputDisplay.Text = "You fell through space and entered the ancient time. " +
                         "You woke up with a bad headache in a strange room. Do you want to head out?";
                     optionOne.Text = "Yes";
@@ -142,6 +158,8 @@ namespace Adventure_Game
                     break;
 
                 case 4:
+                    player = new SoundPlayer(Properties.Resources.Ting_Popup_Pixels_349896185);
+                    player.Play();
                     outputDisplay.Text = "You pushed open the creaking door and a girl " +
                         "claimed to be your family servant greeted you politely.";
                     optionOne.Text = "Continue";
@@ -151,6 +169,8 @@ namespace Adventure_Game
                     break;
 
                 case 5:
+                    player = new SoundPlayer(Properties.Resources.birds_after_rain_Mike_Koenig_1034248330);
+                    player.Play();
                     outputDisplay.Text = "Would you like to ask about your identity in this world?";
                     optionOne.Text = "Yes";
                     optionTwo.Text = "No";
@@ -159,6 +179,8 @@ namespace Adventure_Game
                     break;
 
                 case 6:
+                    player = new SoundPlayer(Properties.Resources.Footsteps_SoundBible_com_534261997);
+                    player.Play();
                     outputDisplay.Text = "You explored the odd looking objects in the room.";
                     optionOne.Text = "";
                     optionTwo.Text = "Continue";
@@ -176,6 +198,8 @@ namespace Adventure_Game
                     break;
 
                 case 8:
+                    player = new SoundPlayer(Properties.Resources.Appear_KP_1137861048);
+                    player.Play();
                     outputDisplay.Text = "She told you that you are the daughter of the richest household " +
                         "around the area. Your heartless father married you off to the" +
                         " king to strengthen your family's relationship with the royal family. " +
@@ -183,12 +207,12 @@ namespace Adventure_Game
                     optionOne.Text = "Continue";
                     optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_4_alternnative;
-                    Thread.Sleep(2000);
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_8;
                     break;
 
                 case 9:
+                    player = new SoundPlayer(Properties.Resources.Night_Sounds___Crickets_Lisa_Redfern_591005346);
+                    player.Play();
                     outputDisplay.Text = "Nightfall.You are not allowed to leave your " +
                         "family house until tomorrow's marriage. What do you do?";
                     optionOne.Text = "Escape in the middle of the night";
@@ -196,21 +220,22 @@ namespace Adventure_Game
                     optionThree.Text = "";
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_2;
                     break;
-
                 case 10:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "You greeted back, however, you did not ask her any questions. " +
                         "The next day, you were put in a fancy carriage and married off to the king." +
                         " Your goals in life were unfulfilled and" +
                         " you ended up living your whole life in the palace, " +
                         "unable to escape your dreadful fate.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_10;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to try again?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_10;
                     break;
                 case 11:
+                    player = new SoundPlayer(Properties.Resources.cloth_Anna_2094913298);
+                    player.Play();
                     outputDisplay.Text = "You found an old fashioned wedding attire within" +
                         " and you tried it on out of curiosity.";
                     optionOne.Text = "Continue";
@@ -219,6 +244,8 @@ namespace Adventure_Game
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_11;
                     break;
                 case 12:
+                    player = new SoundPlayer(Properties.Resources.Knocking_On_Door_SoundBible_com_84643603);
+                    player.Play();
                     outputDisplay.Text = "After you tried on the attire," +
                         " someone knocked on the door. You went to answer it. " +
                         "A  girl claimed to be one of  your family servants greeted you. ";
@@ -244,10 +271,10 @@ namespace Adventure_Game
                     optionTwo.Text = "No";
                     optionThree.Text = "";
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_4;
-                    Thread.Sleep(1000);
-                    imageDisplay.BackColor = Color.Black;
                     break;
                 case 15:
+                    player = new SoundPlayer(Properties.Resources.Knocking_On_Door_SoundBible_com_84643603);
+                    player.Play();
                     outputDisplay.Text = "A girl knocked and came into the room, claiming to be your family " +
                         "servant. You asked her about yourself and this place.";
                     optionOne.Text = "Continue";
@@ -256,6 +283,8 @@ namespace Adventure_Game
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_4;
                     break;
                 case 16:
+                    player = new SoundPlayer(Properties.Resources.Strange_Noise_SoundBible_com_229408508);
+                    player.Play();
                     outputDisplay.Text = "How would you like to escape?";
                     optionOne.Text = "Escape through the front doors of your family house";
                     optionTwo.Text = "Escape through the window";
@@ -263,40 +292,40 @@ namespace Adventure_Game
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_16;
                     break;
                 case 17:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "You ended up becoming one of the king's three thousand wives." +
                         " You were given infinite amount of precious jewels and expensive silk" +
                         " except you died a lonely death. ";
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_17;
                     break;
                 case 18:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "Your father married you off to the palace the next day, " +
                         "leaving you confused and devastated for the rest of your life. " +
                         "You regretted the decision you made to not escape.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_18;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_18; 
                     break;
                 case 19:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "You underestimated the height " +
                         "of your family house and fell to your death.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_19;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_19;
                     break;
                 case 20:
+                    player = new SoundPlayer(Properties.Resources.Swords_Collide_Sound_Explorer_2015600826);
+                    player.Play();
                     outputDisplay.Text = "On the way, you noticed a sword on the ground. " +
                         "Would you like to pick it up?";
                     optionOne.Text = "Yes";
@@ -312,94 +341,86 @@ namespace Adventure_Game
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_4_alternnative;
                     break;
                 case 22:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "She betrayed you by calling in the guards. " +
                         "You were married off to the king afterwards. " +
                         "The fights among you and other concubines got you assassinated. ";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_22;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_22;
                     break;
                 case 23:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "You were captured and the next day, you were " +
                         "married off to the emperor. You lived an unhappy life in the " +
                         "palace with other concubines.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_23;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_23;
                     break;
                 case 24:
+                    player = new SoundPlayer(Properties.Resources.SMALL_CROWD_APPLAUSE_Yannick_Lemieux_1268806408__1_);
+                    player.Play();
                     outputDisplay.Text = "You successfully escaped from the marriage." +
                         " Congratulations, you choose happiness instead of fate.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_24;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_24;
                     break;
                 case 25:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "You successfully escaped from the marriage. However," +
                         " you were killed by the robbers trying to rob your family house.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_25;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_25;
                     break;
                 case 26:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "The guards were at the front doors and you were captured." +
                         " The next day, you were married off.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_26;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_26;
                     break;
                 case 27:
+                    player = new SoundPlayer(Properties.Resources.SMALL_CROWD_APPLAUSE_Yannick_Lemieux_1268806408__1_);
+                    player.Play();
                     outputDisplay.Text = "The guards were afraid of you and you successfully escaped them.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_27;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_27;
                     break;
                 case 28:
+                    player = new SoundPlayer(Properties.Resources.SMALL_CROWD_APPLAUSE_Yannick_Lemieux_1268806408__1_);
+                    player.Play();
                     outputDisplay.Text = "You successfully escaped from the marriage. " +
                         "Congratulations, you choose happiness instead of fate.";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_28;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_28;
                     break;
                 case 29:
+                    player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
+                    player.Play();
                     outputDisplay.Text = "Unfortunately, you did not  escape. Your servant " +
                         "got beaten to death as a result of helping you. " +
                         "You ended up living the rest of  your life in guilt. ";
-                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_29;
-                    Thread.Sleep(5000);
-                    outputDisplay.Text = "Would you like to start over?";
-                    optionOne.Text = "Yes";
-                    optionTwo.Text = "No";
+                    optionOne.Text = "Continue";
+                    optionTwo.Text = "";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.scene_29;
                     break;
                 case 30:
                     outputDisplay.Text = "Do you escape through the doors of your family house," +
@@ -410,16 +431,20 @@ namespace Adventure_Game
                     optionThree.Text = "Request for servant's help";
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_30;
                     break;
+                case 31:
+                    outputDisplay.Text = "Would you like to start over?";
+                    optionOne.Text = "Yes";
+                    optionTwo.Text = "No";
+                    optionThree.Text = "";
+                    imageDisplay.BackColor = Color.Black;
+                    break;
 
 
             }
 
             }
 
-        private void imageDisplay_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 
 }

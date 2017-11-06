@@ -81,6 +81,78 @@ namespace Adventure_Game.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Appear_KP_1137861048 {
+            get {
+                return ResourceManager.GetStream("Appear_KP_1137861048", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream birds_after_rain_Mike_Koenig_1034248330 {
+            get {
+                return ResourceManager.GetStream("birds_after_rain_Mike_Koenig_1034248330", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream cloth_Anna_2094913298 {
+            get {
+                return ResourceManager.GetStream("cloth_Anna_2094913298", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream flyby_Conor_1500306612 {
+            get {
+                return ResourceManager.GetStream("flyby_Conor_1500306612", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Footsteps_SoundBible_com_534261997 {
+            get {
+                return ResourceManager.GetStream("Footsteps_SoundBible_com_534261997", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Knocking_On_Door_SoundBible_com_84643603 {
+            get {
+                return ResourceManager.GetStream("Knocking_On_Door_SoundBible_com_84643603", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Night_Sounds___Crickets_Lisa_Redfern_591005346 {
+            get {
+                return ResourceManager.GetStream("Night_Sounds___Crickets_Lisa_Redfern_591005346", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Sad_Trombone_Joe_Lamb_665429450 {
+            get {
+                return ResourceManager.GetStream("Sad_Trombone_Joe_Lamb_665429450", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap scene_10 {
@@ -297,6 +369,42 @@ namespace Adventure_Game.Properties {
             get {
                 object obj = ResourceManager.GetObject("scene_8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream SMALL_CROWD_APPLAUSE_Yannick_Lemieux_1268806408__1_ {
+            get {
+                return ResourceManager.GetStream("SMALL_CROWD_APPLAUSE_Yannick_Lemieux_1268806408__1_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Strange_Noise_SoundBible_com_229408508 {
+            get {
+                return ResourceManager.GetStream("Strange_Noise_SoundBible_com_229408508", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Swords_Collide_Sound_Explorer_2015600826 {
+            get {
+                return ResourceManager.GetStream("Swords_Collide_Sound_Explorer_2015600826", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Ting_Popup_Pixels_349896185 {
+            get {
+                return ResourceManager.GetStream("Ting_Popup_Pixels_349896185", resourceCulture);
             }
         }
     }
