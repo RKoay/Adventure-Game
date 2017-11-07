@@ -1,4 +1,5 @@
-﻿using System;
+﻿//By Rie Koay 
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -424,10 +425,10 @@ namespace Adventure_Game
                     break;
                 case 30:
                     outputDisplay.Text = "Do you escape through the doors of your family house," +
-                        " do you request for your servant's help or do you escape through the back" +
+                        " request for your servant's help or do you escape through the back" +
                         " door?";
                     optionOne.Text = "Escape through the doors of your family house";
-                    optionTwo.Text = "escape through the back door";
+                    optionTwo.Text = "Escape through the back door";
                     optionThree.Text = "Request for servant's help";
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_30;
                     break;
@@ -439,12 +440,9 @@ namespace Adventure_Game
                     imageDisplay.BackColor = Color.Black;
                     break;
 
-
             }
 
-            }
-
+        }
         
     }
-
 }

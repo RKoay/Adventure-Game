@@ -43,9 +43,9 @@
             // 
             this.outputDisplay.BackColor = System.Drawing.Color.White;
             this.outputDisplay.Font = new System.Drawing.Font("Adobe Caslon Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputDisplay.Location = new System.Drawing.Point(3, 251);
+            this.outputDisplay.Location = new System.Drawing.Point(3, 286);
             this.outputDisplay.Name = "outputDisplay";
-            this.outputDisplay.Size = new System.Drawing.Size(296, 178);
+            this.outputDisplay.Size = new System.Drawing.Size(296, 143);
             this.outputDisplay.TabIndex = 0;
             // 
             // optionOne
