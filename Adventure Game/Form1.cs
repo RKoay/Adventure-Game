@@ -435,6 +435,7 @@ namespace Adventure_Game
                     optionThree.Text = "Request for servant's help";
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_30;
                     break;
+                //Restart or not
                 case 31:
                     outputDisplay.Text = "Would you like to start over?";
                     optionOne.Text = "Yes";
