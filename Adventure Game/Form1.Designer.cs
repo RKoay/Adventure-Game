@@ -41,7 +41,7 @@
             // 
             // outputDisplay
             // 
-            this.outputDisplay.BackColor = System.Drawing.Color.White;
+            this.outputDisplay.BackColor = System.Drawing.Color.Silver;
             this.outputDisplay.Font = new System.Drawing.Font("Adobe Caslon Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputDisplay.Location = new System.Drawing.Point(3, 286);
             this.outputDisplay.Name = "outputDisplay";
@@ -50,7 +50,7 @@
             // 
             // optionOne
             // 
-            this.optionOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.optionOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.optionOne.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionOne.Location = new System.Drawing.Point(330, 286);
             this.optionOne.Name = "optionOne";
@@ -59,7 +59,7 @@
             // 
             // optionTwo
             // 
-            this.optionTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.optionTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.optionTwo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionTwo.Location = new System.Drawing.Point(330, 336);
             this.optionTwo.Name = "optionTwo";
@@ -68,7 +68,7 @@
             // 
             // optionThree
             // 
-            this.optionThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.optionThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.optionThree.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionThree.Location = new System.Drawing.Point(330, 386);
             this.optionThree.Name = "optionThree";
@@ -79,7 +79,7 @@
             // 
             this.imageDisplay.Location = new System.Drawing.Point(-5, -1);
             this.imageDisplay.Name = "imageDisplay";
-            this.imageDisplay.Size = new System.Drawing.Size(574, 236);
+            this.imageDisplay.Size = new System.Drawing.Size(574, 270);
             this.imageDisplay.TabIndex = 4;
             // 
             // controlOne
@@ -116,7 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(570, 432);
             this.Controls.Add(this.controlThree);

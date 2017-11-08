@@ -187,5 +187,8 @@
   <ItemGroup>
     <None Include="Resources\Knocking On Door-SoundBible.com-84643603.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ending Scene.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

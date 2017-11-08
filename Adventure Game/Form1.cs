@@ -130,8 +130,9 @@ namespace Adventure_Game
             switch (scene)
             {
                 case 1:  //start scene  
-                    outputDisplay.Text = "You found an ancient mysterious book " +
-                        "in the library. Would you like to open it?";
+                    outputDisplay.Text = "You found an ancient book " +
+                        "in the library. It seemed to be about marriage in the ancient time. " +
+                        "Would you like to open it?";
                     optionOne.Text = "Yes";
                     optionTwo.Text = "No";
                     optionThree.Text = "";
@@ -142,7 +143,8 @@ namespace Adventure_Game
                     SoundPlayer player = new SoundPlayer(Properties.Resources.flyby_Conor_1500306612);
                     player.Play();
                     outputDisplay.Text = "You fell through space and entered the ancient time. " +
-                        "You woke up with a bad headache in a strange room. Do you want to head out?";
+                        "You woke up with a bad headache in a strange room. " +
+                        "Would you like to head out?";
                     optionOne.Text = "Yes";
                     optionTwo.Text = "No";
                     optionThree.Text = "";
@@ -182,7 +184,7 @@ namespace Adventure_Game
                 case 6:
                     player = new SoundPlayer(Properties.Resources.Footsteps_SoundBible_com_534261997);
                     player.Play();
-                    outputDisplay.Text = "You explored the odd looking objects in the room.";
+                    outputDisplay.Text = "You explored the contents in the room.";
                     optionOne.Text = "";
                     optionTwo.Text = "Continue";
                     optionThree.Text = "";
@@ -190,7 +192,7 @@ namespace Adventure_Game
                     break;
 
                 case 7:
-                    outputDisplay.Text = "Then, you come across a beautiful " +
+                    outputDisplay.Text = "Then, you came across a beautiful " +
                         "wooden box, would you like to open it?";
                     optionOne.Text = "Yes";
                     optionTwo.Text = "No";
@@ -338,7 +340,7 @@ namespace Adventure_Game
                     outputDisplay.Text = "Your servant pitied you and helped you to escape.";
                     optionOne.Text = "";
                     optionTwo.Text = "";
-                    optionThree.Text = "";
+                    optionThree.Text = "Continue";
                     imageDisplay.Image = Adventure_Game.Properties.Resources.scene_4_alternnative;
                     break;
                 case 22:
@@ -366,8 +368,9 @@ namespace Adventure_Game
                 case 24:
                     player = new SoundPlayer(Properties.Resources.SMALL_CROWD_APPLAUSE_Yannick_Lemieux_1268806408__1_);
                     player.Play();
-                    outputDisplay.Text = "You successfully escaped from the marriage." +
-                        " Congratulations, you choose happiness instead of fate.";
+                    outputDisplay.Text = "Later on, you found out that your father wanted to marry you off to the emperor. " +
+                        "Unfortunately for him, have successfully escaped from the marriage." +
+                        " Congratulations, you chose happiness instead of fate.";
                     optionOne.Text = "Continue";
                     optionTwo.Text = "";
                     optionThree.Text = "";
@@ -376,8 +379,8 @@ namespace Adventure_Game
                 case 25:
                     player = new SoundPlayer(Properties.Resources.Sad_Trombone_Joe_Lamb_665429450);
                     player.Play();
-                    outputDisplay.Text = "You successfully escaped from the marriage. However," +
-                        " you were killed by the robbers trying to rob your family house.";
+                    outputDisplay.Text = "You have successfully escaped from your family. However," +
+                        " you were killed by the robbers trying to rob your house.";
                     optionOne.Text = "Continue";
                     optionTwo.Text = "";
                     optionThree.Text = "";
@@ -437,7 +440,7 @@ namespace Adventure_Game
                     optionOne.Text = "Yes";
                     optionTwo.Text = "No";
                     optionThree.Text = "";
-                    imageDisplay.BackColor = Color.Black;
+                    imageDisplay.Image = Adventure_Game.Properties.Resources.Ending_Scene;
                     break;
 
             }
