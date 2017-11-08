@@ -1,4 +1,4 @@
-﻿//By Rie Koay 
+﻿//By Rie Koay On Nov 8 2017
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +13,9 @@ using System.Media;
 namespace Adventure_Game
 {
     public partial class mainDisplay : Form
-    {
+    {//starting from scene 1
         int scene = 1;
-
+        //Generating Random Number
         Random ranGen = new Random();
 
         int computer;
